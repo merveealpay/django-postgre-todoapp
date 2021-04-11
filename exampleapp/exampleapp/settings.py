@@ -74,7 +74,6 @@ WSGI_APPLICATION = 'exampleapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-#database postgre ayarları, terminalden db olusturmustum bilgileri burda giriyoruz.
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
